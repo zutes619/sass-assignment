@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"* {\n    padding: 0;\n    margin: 0;\n    box-sizing: border-box;\n}\n\n.bg-header:before,\n.bg-header:after %extend_1 {\n    content: \"\";\n    position: absolute;\n    bottom: -1rem;\n    height: 1rem;\n    width: 30%;\n    background-color: red;\n}\n\nhtml {\n    font-size: 16px;\n    line-height: 1.6;\n    font-weight: 400;\n}"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,UAAU,EAAE,UAAW;CAC1B;;;AAED,AAAU,UAAA,AAAA,OAAO,CACU;EACvB,OAAO,EAAE,EAAG;EACZ,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,KAAM;EACd,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,GAAI;EACX,gBAAgB,EAAE,GAAI;CACzB;;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,GAAI;CACpB",
+	"names": []
+}
